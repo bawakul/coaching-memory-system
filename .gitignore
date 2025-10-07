@@ -1,0 +1,32 @@
+# Coaching sessions - keep these private locally
+coaching-sessions/sessions/*.md
+coaching-sessions/memory-summary.md
+
+# But do track the index structure (it's just metadata)
+!coaching-sessions/index.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
