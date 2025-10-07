@@ -1,6 +1,18 @@
 # Life Coaching Memory System
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.7%2B-blue)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-required-orange)
+
 A local system for tracking and storing your life coaching conversations with Claude, giving Claude persistent memory across sessions.
+
+## ✨ Features
+
+- 🧠 **Persistent Memory** - Claude remembers your previous conversations
+- 🔍 **Searchable Archive** - Find past sessions by keyword, tag, or date
+- 📊 **Progress Tracking** - Analyze patterns and themes over time
+- 🔒 **Privacy First** - All data stored locally on your machine
+- ⚡ **Automatic** - Hooks handle memory loading and saving seamlessly
 
 ## Overview
 
@@ -73,9 +85,32 @@ python3 .claude/hooks/save-session.py
 
 ## Getting Started
 
-### First Time Setup
+### Prerequisites
 
-The system is already configured! Just start using Claude Code in this directory.
+- **Claude Code CLI** - [Installation instructions](https://docs.claude.com/en/docs/claude-code/installation)
+- **Python 3** - Typically pre-installed on macOS/Linux, download from [python.org](https://www.python.org/downloads/) for Windows
+- **Git** - For cloning the repository
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/bawakul/coaching-memory-system.git
+   cd coaching-memory-system
+   ```
+
+2. **Test the system (optional):**
+   ```bash
+   ./test-system.sh
+   ```
+   This creates a sample session and verifies everything works.
+
+3. **Start using it:**
+   ```bash
+   claude
+   ```
+
+That's it! No dependencies to install, no configuration needed.
 
 ### Using the System
 
@@ -173,6 +208,18 @@ Feel free to edit them directly if needed.
 
 - [Claude Code Hooks Documentation](https://docs.claude.com/en/docs/claude-code/hooks)
 - [Claude Code Custom Commands](https://docs.claude.com/en/docs/claude-code/commands)
+
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+Built with [Claude Code](https://claude.com/claude-code) - AI-powered coding assistant.
 
 ---
 

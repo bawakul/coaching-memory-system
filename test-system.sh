@@ -12,7 +12,9 @@ GREEN='\033[0;32m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
-PROJECT_DIR="/Users/bharadwajkulkarni/Documents /Vibecoding/Coaching-example"
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$SCRIPT_DIR"
 
 echo -e "${BLUE}Step 1: Creating a test coaching session...${NC}"
 echo ""
