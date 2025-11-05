@@ -32,3 +32,28 @@ Review the recent sessions above to identify recurring patterns, progress on goa
 
 *Note: This context file is automatically updated at the start of each session with relevant memories from past conversations.*
 *Last updated: 2025-10-07 22:03*
+
+
+## Session Tracking
+
+After each session, write session notes in `Sessions/YYYY-MM-DD-description.md`. **Ask for permission** before writing session notes to avoid overdoing it. Session notes help track progress and maintain context across sessions.
+
+## Date Format Guidelines
+
+When working with dates in this project:
+
+- **Session filenames**: Use `YYYY-MM-DD-description.md` format (machine-sortable)
+- **Frontmatter dates**: Use ISO format `YYYY-MM-DD` (for scripts and queries)
+- **Display dates**: Use wiki links `[[DD MMM YYYY]]` (e.g., `[[03 Nov 2025]]`) for human-readable, Obsidian-linked dates
+- **Session frontmatter**: Include these fields:
+  ```yaml
+  ---
+  date: YYYY-MM-DD
+  project: project-name
+  type: session
+  claude-generated: true
+  tags: [session, planning/implementation/decision]
+  ---
+  ```
+
+This ensures consistency across the portfolio and enables Obsidian cross-referencing.
