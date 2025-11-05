@@ -4,7 +4,8 @@ project_type: experiment
 last_worked: 2025-10-07
 next_action: "Resume exploring life coaching memory system development"
 repo: "https://github.com/bawakul/coaching-memory-system"
-tags: [bawa-notes]---
+tags: [bawa-notes]
+---
 
 # Coaching Example - Notes
 
